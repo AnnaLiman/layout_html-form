@@ -30,7 +30,7 @@
             autocomplete="off"
             >
         </label>
-        <label for="years">How old are you?
+        <label for="years">How old are You?
           <input
             type="number"
             name="how_old_are_you"
@@ -46,7 +46,7 @@
             id="date"
             >
         </label>
-        <label for="accept">I accept the term of the ageement
+        <label for="accept">I accept the term of the agreement
           <input
             type="checkbox"
             id="accept"
@@ -83,12 +83,12 @@
             type="radio"
             name="do_you_love_cats"
             value="Yes"
-            > yes
+            > Yes
           <input
             type="radio"
             name="do_you_love_cats"
             value="No"
-            > no
+            > No
         </div>
         <label for="color">What is your favorite color?
           <input type="color" name="color">
@@ -108,7 +108,13 @@
           </select>
         </label>
         <label for="rate_our_work">How do you rate our work?
-          <input type="range" name="rate_our_work">
+          <input
+            type="range"
+            name="rate_our_work"
+            min="1"
+            max="10"
+            value="5"
+            >
         </label>
       </fieldset>
       <fieldset>
